@@ -1,0 +1,53 @@
+/* Basic reset and typography */
+body {
+    /* Set the font */
+    font-family: Arial, sans-serif;
+    /* Set the background color */
+    background-color: #f4f4f9;
+    /* set the layour to flexbox */
+    display: flex;
+    /*Center the card */
+    justify-content: center;
+    /* Align the card vertically */
+    align-items: center;
+    /* set the height to full viewport */
+    height: 100vh;
+    /*remove default margin */
+    margin: 0;
+}
+
+/* This card will display all of my info */
+.profile-card {
+    /* Set the background color */
+    background-color: #ffffff;
+    /* Add padding */
+    padding: 30px;
+    /* round the edges */
+    border-radius: 8px;
+    /* set the width */
+    width: 350px;
+}
+
+/* Header styling */
+h1 {
+    /* Set the text color */
+    color: #333333;
+    /* align the text to the cebter */
+    text-align: center;
+    /* set the top margin */
+    margin-top: 0;
+    /* set the bottom border */
+    border-bottom: 2px solid #0056b3;
+    /*add padding to the bottom */
+    padding-bottom: 10px;
+}
+
+/* styling for the information row */
+.info-row {
+    /* Set the margin */
+    margin: 15px 0;
+    /* Set the font size */
+    font-size: 16px;
+    /* Set the text color */
+    color: #555555;
+}
