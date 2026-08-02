@@ -106,3 +106,72 @@ button:hover {
     /* change the background color when hovering */
     background-color: #003d82;
 }
+
+/* styling for user input */
+.Input_Section {
+    /* set display to felx so it automatically fits in place */
+    display: flex;
+    /* set a gap between everything else */
+    gap: 10px;
+    /* add margin to the top */
+    margin-top: 15px;
+}
+/* styling for the movie input field */
+#Movie_Input {
+    /* Flex display again */
+    flex: 1;                 
+    /* Add padding */
+    padding: 10px;              
+    /* set the font size */
+    font-size: 16px; 
+    /* add a white border*/
+    border: 1px solid #cccccc;  
+    /* round the edges */
+    border-radius: 5px;            
+}
+/* styling for the reset button */
+.Reset_Button {
+    /* set it to red */
+    background-color: #d9534f;    
+}
+/* styling for the reset button on hover */
+.Reset_Button:hover {
+    /* Change to a differetn shade of red when hovering the button */
+    background-color: #c9302c;
+}
+/* styling for the list display */
+.Display_Area {
+    /* add margin to the top */
+    margin-top: 25px;    
+    /* Add padding */
+    padding: 15px;                 
+    /* make it white */
+    background-color: #f8f9fa;     
+    /* set the border to be a little off white */
+    border: 1px solid #e9ecef;     
+    /* round the edges */
+    border-radius: 6px;            
+    /* align the text to the left */
+    text-align: left;              
+}
+/* styling for the list header */
+.Display_Area h3 {
+    /* add margin to the top */
+    margin-top: 0;                 
+    /* set the text color */
+    color: #333333;                
+}
+/* styling for the movie list */
+#Movie_List {
+    margin-bottom: 0;                
+    padding-left: 20px;            
+}
+/* styling for the movies in the list */
+#Movie_List li {
+    /* add margin */
+    margin: 8px 0;                 
+    /* set the text color */
+    color: #444444;               
+    /* set the font size */
+    font-size: 16px;
+}

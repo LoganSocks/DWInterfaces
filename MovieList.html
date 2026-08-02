@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>Alphabetical Movie List</title>
+    <!-- link to css file -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+        <ul>
+            <!-- Link to the homepage with the student info -->
+            <li><a href = "Homepage.html">Student Profile</a></li>
+            <!-- link to the slideshow page -->
+            <li><a href = "Slideshow.html">Image Slideshow</a></li>
+            <!-- link to the movie list page -->
+            <li><a href = "MovieList.html">Movie List</a></li>
+        </ul>
+    <!-- Div for the main page -->
+    <div class = "Page_Container">
+        <!-- div that will jold the movie list -->
+        <div class = "Card">
+            <!-- Title for the page -->
+            <h1>Sorted Movie List</h1>
+                <!-- div for the user to input movies -->
+                <div class = "Input_Section">
+                <!-- Input field for adding movies -->
+                <input type = "Text" id = "Movie_Input" placeholder = "Enter A Movie">
+                <!-- the button to actually add the movie to the list -->
+                <button id = "Add_Button">Add Movie</button>
+            </div>
+            <!-- div for the button display  -->
+            <div class = "Button_Row">
+                <!-- button to display the sorted list -->
+                <button id = "Display_Button">Display Alphabetical List</button>
+                <!-- Button to clear the list -->
+                <button id = "Reset_Button" class = "Reset_Button">Reset List</button>
+            </div>
+            <!-- div that the list will sit in -->
+            <div id = "Movie_Display_Area" class = "Display_Area">
+                <h3>Sorted Movie List:</h3>
+                <!-- display area for the movie list -->
+                <ul id = "Movie_List"></ul>
+            </div>
+        </div>
+    </div>
+    <!-- link to the javascript file -->
+    <script src="main.js"></script>
+</body>
+</html>
